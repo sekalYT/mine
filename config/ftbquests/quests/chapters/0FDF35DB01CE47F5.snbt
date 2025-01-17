@@ -1,0 +1,366 @@
+{
+	autofocus_id: "7D990E1F61153947"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0FDF35DB01CE47F5"
+	group: "65BFD66C567A90B5"
+	id: "0FDF35DB01CE47F5"
+	images: [{
+		height: 100.0d
+		image: "ftbteams:textures/i6.png"
+		rotation: 0.0d
+		width: 177.0d
+		x: 1.0d
+		y: -1.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7D990E1F61153947"
+			tasks: [{
+				id: "3C7177DDEDB0EF7A"
+				title: "Cra"
+				type: "checkmark"
+			}]
+			title: "croptopia"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D990E1F61153947"]
+			id: "3870F81C2CEF3176"
+			tasks: [{
+				advancement: "croptopia:root"
+				criterion: ""
+				id: "13ED0BA60B2439BD"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D990E1F61153947"]
+			id: "012CC0ED6DD778B5"
+			tasks: [{
+				advancement: "croptopia:mortar_and_pestle"
+				criterion: ""
+				id: "3613C67E45F4DD3A"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["012CC0ED6DD778B5"]
+			id: "30D2F3627F05F982"
+			tasks: [{
+				advancement: "croptopia:knife"
+				criterion: ""
+				id: "1EC6D9627D2274A1"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30D2F3627F05F982"]
+			id: "0F3BF21BC8BB2157"
+			tasks: [{
+				advancement: "croptopia:pot"
+				criterion: ""
+				id: "71C04BCC84BD265F"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F3BF21BC8BB2157"]
+			id: "37D37A8F48F46B4D"
+			tasks: [{
+				advancement: "croptopia:frying_pan"
+				criterion: ""
+				id: "6F11A9B1F065FFBB"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["37D37A8F48F46B4D"]
+			id: "551C8D7FE387C0D8"
+			tasks: [{
+				advancement: "croptopia:food_press"
+				criterion: ""
+				id: "52B6B0076C4E88B5"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7D990E1F61153947"]
+			id: "6E6E05974539BD06"
+			tasks: [{
+				id: "0065FC58C10B7C94"
+				item: "croptopia:salt_ore"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6E6E05974539BD06"]
+			id: "5C305A7CB2C5E477"
+			tasks: [{
+				advancement: "croptopia:salt"
+				criterion: ""
+				id: "102966D280470937"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C305A7CB2C5E477"]
+			id: "03049517E17D6D41"
+			tasks: [{
+				advancement: "croptopia:cinnamon"
+				criterion: ""
+				id: "41C78682F91EFA1B"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["45F89D0B405B4BD2"]
+			id: "72E23FE2D23DA0EF"
+			tasks: [{
+				advancement: "croptopia:eatcrafted"
+				criterion: ""
+				id: "4DC43FAF59721753"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["72E23FE2D23DA0EF"]
+			id: "470DF3B618BD85FC"
+			tasks: [{
+				advancement: "croptopia:eatbig"
+				criterion: ""
+				id: "3FAE42F6978852A9"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["470DF3B618BD85FC"]
+			id: "23CA075B7B9667DB"
+			tasks: [{
+				advancement: "croptopia:gather_food"
+				criterion: ""
+				id: "6A01F6F19B0F73F1"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7D990E1F61153947"]
+			id: "533B7077B690E036"
+			tasks: [{
+				advancement: "croptopia:getseeds"
+				criterion: ""
+				id: "7D57099B2978AD85"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["533B7077B690E036"]
+			id: "19DE6F2353DA4BEA"
+			tasks: [{
+				advancement: "croptopia:gather_plains"
+				criterion: ""
+				id: "38022537792045F1"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19DE6F2353DA4BEA"]
+			id: "25655D68A0DD255A"
+			tasks: [{
+				advancement: "croptopia:gather_desert"
+				criterion: ""
+				id: "6BBF96ECCC76B061"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["25655D68A0DD255A"]
+			id: "3002C66C48203B06"
+			tasks: [{
+				advancement: "croptopia:gather_forest"
+				criterion: ""
+				id: "2753BCE199A4C035"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3002C66C48203B06"]
+			id: "08CEE8F7E8E991B9"
+			tasks: [{
+				advancement: "croptopia:gather_savanna"
+				criterion: ""
+				id: "21B3FC7753D09F24"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08CEE8F7E8E991B9"]
+			id: "28D0C41984844D1C"
+			tasks: [{
+				advancement: "croptopia:gather_jungle"
+				criterion: ""
+				id: "354DB4DFCBD3F95D"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["28D0C41984844D1C"]
+			id: "3EA21E987E7E9354"
+			tasks: [{
+				advancement: "croptopia:gather_swamp"
+				criterion: ""
+				id: "612C5457F20E4A00"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3EA21E987E7E9354"]
+			id: "20C6D13B605A6E85"
+			tasks: [{
+				advancement: "croptopia:gather_all"
+				criterion: ""
+				id: "2CAB66ECCD19A436"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7D990E1F61153947"]
+			id: "40F7915F6275D939"
+			tasks: [{
+				advancement: "croptopia:getsapling"
+				criterion: ""
+				id: "7C93869D127AD9C3"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40F7915F6275D939"]
+			id: "27683E93BFDA43B8"
+			tasks: [{
+				advancement: "croptopia:getdrinks"
+				criterion: ""
+				id: "74F239A79EA4F63C"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["40F7915F6275D939"]
+			id: "74B4DF6CAFFA3F5E"
+			tasks: [{
+				advancement: "croptopia:gather_tree_dark_forest"
+				criterion: ""
+				id: "1CBC11A87A86E578"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74B4DF6CAFFA3F5E"]
+			id: "4F5839EF7C12CF6C"
+			tasks: [{
+				advancement: "croptopia:gather_tree_jungle"
+				criterion: ""
+				id: "297C5611FF65F3DE"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4F5839EF7C12CF6C"]
+			id: "08259B8AC77512CA"
+			tasks: [{
+				advancement: "croptopia:gather_tree_plains"
+				criterion: ""
+				id: "314FD6E558EB8C9D"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["08259B8AC77512CA"]
+			id: "7E2008AD621E66FF"
+			tasks: [{
+				advancement: "croptopia:gather_tree_forest"
+				criterion: ""
+				id: "04DE06CE1F578C50"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7E2008AD621E66FF"]
+			id: "66635BB024589FD0"
+			tasks: [{
+				advancement: "croptopia:gather_tree_all"
+				criterion: ""
+				id: "5A148A1436BBA443"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3870F81C2CEF3176"]
+			id: "45F89D0B405B4BD2"
+			tasks: [{
+				id: "745CAC8EA35507C5"
+				item: "croptopia:guide"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "Еда"
+}

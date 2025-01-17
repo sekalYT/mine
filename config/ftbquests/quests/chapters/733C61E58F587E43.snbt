@@ -1,0 +1,1222 @@
+{
+	autofocus_id: "6933C8B0F9A16D04"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "733C61E58F587E43"
+	group: ""
+	hide_quest_until_deps_visible: true
+	id: "733C61E58F587E43"
+	images: [{
+		height: 100.0d
+		image: "ftbteams:textures/i10.png"
+		rotation: 0.0d
+		width: 177.0d
+		x: -13.5d
+		y: 1.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6933C8B0F9A16D04"
+			rewards: [{
+				count: 8
+				id: "79CC42384763D5EC"
+				item: {
+					Count: 1
+					id: "minecraft:cooked_chicken"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "ДОБРО ПОЖАЛОВАТЬ!"
+			tasks: [{
+				id: "63EBA22B0D8DDD00"
+				title: "Начало"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0517DA2B6E05B1D0"]
+			id: "733B565425D443A0"
+			rewards: [{
+				count: 4
+				id: "1825CD45822A7B96"
+				item: {
+					Count: 1
+					id: "minecraft:oak_log"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "03D7657D8D308E25"
+				item: {
+					Count: 2
+					id: "minecraft:stick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Палки"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DD884CF52D48567"]
+			id: "28194648033814BC"
+			rewards: [{
+				id: "2EFA6993B4804A79"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "2DB372FD11D7B07F"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1AFE019EF5578BE9"]
+			id: "4DA6887D7F59F456"
+			rewards: [{
+				id: "21CA6BC12B3BA738"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "499886F4DFFFCE27"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4DD884CF52D48567"]
+			id: "3960366B71A9FE1E"
+			rewards: [{
+				id: "2056C9BEECC841E9"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "362BFB6F6BBF0DA2"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4DD884CF52D48567"]
+			id: "038D1421E1DD6D51"
+			rewards: [{
+				id: "332E04BDCFE10CE8"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "35C98CB0B69561C5"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1AFE019EF5578BE9"]
+			id: "61E17E00820B2F41"
+			rewards: [{
+				id: "3A55111AEDB74C1B"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "5406713AED4CB523"
+				item: {
+					Count: 1
+					id: "minecraft:stone_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1AFE019EF5578BE9"]
+			id: "38AEB117C0408EE6"
+			rewards: [{
+				id: "25CB4EE32EF7F9E6"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "445697DFC45B8B5F"
+				item: {
+					Count: 1
+					id: "minecraft:stone_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5096635A1855AF0E"]
+			id: "09EFD7AF68005FEE"
+			rewards: [{
+				id: "60380CA25E44F938"
+				type: "xp"
+				xp: 900
+			}]
+			tasks: [{
+				id: "6E8879927EB7A490"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5096635A1855AF0E"]
+			id: "68B9D21FCF03D30D"
+			rewards: [{
+				id: "40CBFEB3149C237F"
+				type: "xp"
+				xp: 900
+			}]
+			tasks: [{
+				id: "2A9D2B5CD7F39D91"
+				item: {
+					Count: 1
+					id: "minecraft:iron_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5096635A1855AF0E"]
+			id: "08D820A429836C75"
+			rewards: [{
+				id: "1710D26437406FC3"
+				type: "xp"
+				xp: 900
+			}]
+			tasks: [{
+				id: "24B51EA18210604C"
+				item: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["434F4FC0D7959687"]
+			id: "0134068FEFE62C1A"
+			rewards: [{
+				id: "56EB296BA0932038"
+				type: "xp"
+				xp: 1100
+			}]
+			tasks: [{
+				id: "43A8C39EFA880ABC"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["434F4FC0D7959687"]
+			id: "12E449F9A76D9E9C"
+			rewards: [{
+				id: "67962152B6237A07"
+				type: "xp"
+				xp: 1100
+			}]
+			tasks: [{
+				id: "02E897A809BAA478"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["434F4FC0D7959687"]
+			id: "73C7B40B66A5AD63"
+			rewards: [{
+				id: "6B3CE8E25CB70AF9"
+				type: "xp"
+				xp: 1100
+			}]
+			tasks: [{
+				id: "4CD13919F8D11C40"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["32513311136613A8"]
+			id: "7FABCC92104C4F5A"
+			rewards: [{
+				id: "53F20F1525FBC7F4"
+				type: "xp"
+				xp: 1300
+			}]
+			tasks: [{
+				id: "1E60522E22F148B6"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["32513311136613A8"]
+			id: "231D22A87C3C30D7"
+			rewards: [{
+				id: "5AC722B2953C972E"
+				type: "xp"
+				xp: 1300
+			}]
+			tasks: [{
+				id: "264F766FFD9F20CA"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["32513311136613A8"]
+			id: "25BD00486628E1E3"
+			rewards: [{
+				id: "3E8EFF267010C1CD"
+				type: "xp"
+				xp: 1300
+			}]
+			tasks: [{
+				id: "5ACACD4CCE5FAC43"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6933C8B0F9A16D04"]
+			id: "00E487DF83997C63"
+			rewards: [{
+				id: "3569E3C650247D30"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "33A46A3647769011"
+				type: "dimension"
+			}]
+			title: "&f Посетите &3\"Нижний мир\""
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["08612ABC6D643998"]
+			id: "1F8C43529A1C5A88"
+			rewards: [{
+				id: "57E460427FB9560E"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				count: 8L
+				id: "23171743402CBE4E"
+				item: {
+					Count: 8
+					id: "minecraft:blaze_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["00E487DF83997C63"]
+			id: "3ED17931511FB742"
+			rewards: [{
+				id: "6EC6CD91B1FE08BC"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				biome: "minecraft:warped_forest"
+				id: "34762C6CB7C20B57"
+				type: "biome"
+			}]
+			title: "&f Посетите биом &3\"Искажённый лес\""
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["00E487DF83997C63"]
+			id: "08612ABC6D643998"
+			rewards: [{
+				id: "3AA7138B0BA2D5C7"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "364B4CC7D947EE2F"
+				structure: "minecraft:fortress"
+				type: "structure"
+			}]
+			title: "&f Найдите &3\"Адскую крепость\""
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3ED17931511FB742"]
+			id: "72E5EB0359F53891"
+			rewards: [{
+				id: "13967CB8CD139609"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				count: 16L
+				id: "76463AFAAFB92292"
+				item: {
+					Count: 16
+					id: "minecraft:ender_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["605D6FE5744DB730"]
+			id: "00AEF46FFC74A34D"
+			rewards: [{
+				id: "18C90A7D055D7AA1"
+				type: "xp"
+				xp: 1100
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "454F9C762F20E1E1"
+				type: "dimension"
+			}]
+			title: "&f Посетите &3\"Эндр мир\""
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6933C8B0F9A16D04"]
+			id: "605D6FE5744DB730"
+			rewards: [{
+				id: "7D4A25D837344FE3"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "5C1BCAD48E7CA851"
+				structure: "minecraft:stronghold"
+				type: "structure"
+			}]
+			title: "&f Найдите &3\"Крепость в энедер мир\""
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["00AEF46FFC74A34D"]
+			id: "79BA55F357D5D2CF"
+			rewards: [{
+				id: "580ACCD4DBFD5DE9"
+				type: "xp"
+				xp: 1500
+			}]
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "02DC97E07B7E5ECC"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["605D6FE5744DB730"]
+			id: "5913603AB487E21B"
+			rewards: [{
+				id: "68685EA85F039BDC"
+				type: "xp"
+				xp: 1100
+			}]
+			tasks: [{
+				id: "479E1D387CE3687E"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			title: "&f Найдите &3\"Эндер город\""
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5913603AB487E21B"]
+			id: "7237CB78D4551EB9"
+			rewards: [{
+				id: "060FBFB559AE5F91"
+				type: "xp"
+				xp: 1500
+			}]
+			tasks: [{
+				id: "27CF0A20577447EC"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["733B565425D443A0"]
+			id: "4179A5A6D886227E"
+			rewards: [{
+				count: 16
+				id: "2B723391AD5DDA48"
+				item: {
+					Count: 1
+					id: "minecraft:torch"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "5B3FF400E32F7BDB"
+				item: {
+					Count: 16
+					id: "minecraft:torch"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5096635A1855AF0E"]
+			id: "1F4C02A58E5F02D6"
+			rewards: [{
+				id: "5C684E28A9B1C81F"
+				type: "xp"
+				xp: 900
+			}]
+			tasks: [{
+				id: "0C96E1FDF4D8C8B2"
+				item: {
+					Count: 1
+					id: "minecraft:iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5096635A1855AF0E"]
+			id: "70D617E12ABBF33D"
+			rewards: [{
+				id: "0F11DF90283AF3D7"
+				type: "xp"
+				xp: 900
+			}]
+			tasks: [{
+				id: "331637A5DD97879C"
+				item: {
+					Count: 1
+					id: "minecraft:iron_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5096635A1855AF0E"]
+			id: "1D0D1F33320366FC"
+			rewards: [{
+				id: "4F9260C8BC37E311"
+				type: "xp"
+				xp: 900
+			}]
+			tasks: [{
+				id: "1DA3C7B98D13BBAE"
+				item: {
+					Count: 1
+					id: "minecraft:iron_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5096635A1855AF0E"]
+			id: "058ABBEB3415A555"
+			rewards: [{
+				id: "4C07BACCA983A9B4"
+				type: "xp"
+				xp: 900
+			}]
+			tasks: [{
+				id: "2C9DEE616BC2E92C"
+				item: {
+					Count: 1
+					id: "minecraft:iron_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["434F4FC0D7959687"]
+			id: "32D69F6EFA2FCBE1"
+			rewards: [{
+				id: "308FF09E554661CD"
+				type: "xp"
+				xp: 1100
+			}]
+			tasks: [{
+				id: "1136F70E2B7F7A9B"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["434F4FC0D7959687"]
+			id: "0A78DFF671181E6D"
+			rewards: [{
+				id: "709E5C6BF5ABD98F"
+				type: "xp"
+				xp: 1100
+			}]
+			tasks: [{
+				id: "2186CCA054259F5C"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["434F4FC0D7959687"]
+			id: "43BA5CDE4C17AD1C"
+			rewards: [{
+				id: "63D4CCDA25212EA4"
+				type: "xp"
+				xp: 1100
+			}]
+			tasks: [{
+				id: "4D2D43EC7C1D8EC4"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["434F4FC0D7959687"]
+			id: "49A5650217E07D3C"
+			rewards: [{
+				id: "63F158B87AB8951A"
+				type: "xp"
+				xp: 1100
+			}]
+			tasks: [{
+				id: "5DC549DFF0ED2602"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D4BC870545B817D"]
+			id: "5096635A1855AF0E"
+			rewards: [{
+				id: "72E70AF961B32982"
+				type: "xp"
+				xp: 800
+			}]
+			tasks: [{
+				id: "3B7723DA316A9642"
+				item: {
+					Count: 1
+					id: "minecraft:iron_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["09EFD7AF68005FEE"]
+			id: "434F4FC0D7959687"
+			rewards: [{
+				id: "359B61D10A94543A"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "470DCF38C278E165"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0134068FEFE62C1A"]
+			id: "32513311136613A8"
+			rewards: [{
+				id: "39380DEED44FC48B"
+				type: "xp"
+				xp: 1200
+			}]
+			tasks: [{
+				id: "3DD6817CEF19341C"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["32513311136613A8"]
+			id: "14CEFC3AF3B04CF0"
+			rewards: [{
+				id: "59081ACF2A072BA6"
+				type: "xp"
+				xp: 1300
+			}]
+			tasks: [{
+				id: "482277A783B42078"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["32513311136613A8"]
+			id: "6005DF5DF429F0ED"
+			rewards: [{
+				id: "537F0CF1C2DA73A1"
+				type: "xp"
+				xp: 1300
+			}]
+			tasks: [{
+				id: "10D5C41547FD41C4"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["32513311136613A8"]
+			id: "5FE3927BF669F8CF"
+			rewards: [{
+				id: "595538FC95E54386"
+				type: "xp"
+				xp: 1300
+			}]
+			tasks: [{
+				id: "6F6733D02C938103"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["32513311136613A8"]
+			id: "114BA264F7E03FEE"
+			rewards: [{
+				id: "1A53DBE57936037C"
+				type: "xp"
+				xp: 1300
+			}]
+			tasks: [{
+				id: "6F37B902CB644F68"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4D002D8B0723A97B"
+				"2E8AEC5FFE4F4235"
+			]
+			id: "5728FCE91F161553"
+			rewards: [{
+				id: "0ADF7DF3633192B0"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "23815A786BD87622"
+				item: {
+					Count: 1
+					id: "minecraft:blast_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E8AEC5FFE4F4235"]
+			id: "49806A86CA7023F0"
+			rewards: [{
+				id: "72DE3FA76B321D0D"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "2E92412DD0451B64"
+				item: {
+					Count: 1
+					id: "minecraft:smoker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1AFE019EF5578BE9"]
+			id: "2E8AEC5FFE4F4235"
+			rewards: [{
+				id: "77A6EF5A88947F37"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "16D736F845B0E13C"
+				item: {
+					Count: 1
+					id: "minecraft:furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1AFE019EF5578BE9"]
+			id: "4D002D8B0723A97B"
+			rewards: [{
+				id: "070036C8551A96C8"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				count: 3L
+				id: "1BB61CB9C16107DD"
+				item: {
+					Count: 3
+					id: "minecraft:smooth_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0517DA2B6E05B1D0"]
+			id: "4DD884CF52D48567"
+			rewards: [{
+				id: "4970FD7B53FA5E37"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "07336BF0417F93D3"
+				item: {
+					Count: 1
+					id: "minecraft:crafting_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4DD884CF52D48567"]
+			id: "3BF3E6FD5B6E698C"
+			rewards: [{
+				id: "66D120E1D37E7D32"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "66E53E53604FD827"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4DD884CF52D48567"]
+			id: "1536F11A186776C1"
+			rewards: [{
+				id: "60BBB03E5AB96332"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "2B12B83E22ED678C"
+				item: {
+					Count: 1
+					id: "minecraft:bookshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DD884CF52D48567"]
+			id: "73DB0CABF31F2413"
+			rewards: [{
+				id: "6304838A6A917FB8"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "13EDC33B88F693B2"
+				item: {
+					Count: 1
+					id: "minecraft:chest"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28194648033814BC"]
+			id: "1AFE019EF5578BE9"
+			rewards: [{
+				id: "15FEAED7E0DC3E3B"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				id: "73B1478CA0AE12FA"
+				item: {
+					Count: 1
+					id: "minecraft:stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4DD884CF52D48567"]
+			id: "27E0ECD5F1C5D58A"
+			rewards: [{
+				id: "7DD137C0097765F1"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "1CC28874525E73CD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6933C8B0F9A16D04"]
+			id: "678D3423D34CDB2A"
+			rewards: [{
+				count: 4
+				id: "6780B25E5DFB8BB3"
+				item: {
+					Count: 1
+					id: "minecraft:oak_log"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "77E68CBCFD7CA343"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Брёвна"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["678D3423D34CDB2A"]
+			id: "0517DA2B6E05B1D0"
+			rewards: [{
+				count: 4
+				id: "3988BC4F37256B40"
+				item: {
+					Count: 1
+					id: "minecraft:oak_log"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "5FECD3D59707BCF2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+				title: "Any #minecraft:planks"
+				type: "item"
+			}]
+			title: "Доски"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DA6887D7F59F456"]
+			id: "3D4BC870545B817D"
+			rewards: [{
+				id: "097C3420DE14B7AF"
+				type: "xp"
+				xp: 700
+			}]
+			tasks: [{
+				id: "138037BC7FF7C3F6"
+				item: {
+					Count: 1
+					id: "minecraft:raw_iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+	]
+	title: "Начало"
+}

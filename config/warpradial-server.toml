@@ -1,0 +1,73 @@
+
+#General settings
+[general]
+	#Cooldown mode
+	#0 = no cooldown
+	#1 = global cooldown
+	#2 = per category cooldown
+	#Range: 0 ~ 2
+	warpCooldownMode = 2
+	#Global cooldown in ticks
+	#Is only used if cooldownMode = 1
+	#Range: 0 ~ 72000
+	globalWarpCooldownTicks = 2400
+
+	[general.home]
+		#Can homes be created and warped to
+		homesAllowed = true
+		#Home warp cooldown in ticks
+		#Is only used if warpCooldownMode = 2
+		#Range: 0 ~ 72000
+		homeWarpCooldownTicks = 600
+
+	[general.spawn]
+		#Can spawn be warped to
+		spawnAllowed = true
+		#Spawn warp cooldown in ticks
+		#Is only used if warpCooldownMode = 2
+		#Range: 0 ~ 72000
+		spawnWarpCooldownTicks = 600
+
+	[general.playerWarp]
+		#Can players create their own warps
+		playerWarpsAllowed = true
+		#Player warps cooldown in ticks
+		#Is only used if warpCooldownMode = 2
+		#Range: 0 ~ 72000
+		playerWarpCooldownTicks = 2400
+
+	[general.serverWarp]
+		#Can server warps be created and warped to
+		serverWarpsAllowed = true
+		#Server warps cooldown in ticks
+		#Is only used if warpCooldownMode = 2
+		#Range: 0 ~ 72000
+		serverWarpCooldownTicks = 2400
+
+	[general.admin]
+		#Are warp add or remove logged
+		logging = true
+		#Only allow ops and players with specific permission to use the radial menu
+		onlyOpsMenu = false
+		#Only allow ops and players with specific permission to teleport to server warps
+		onlyOpsServerWarpTeleport = false
+		#Inform the player that they do not have the required permission to use the menu or teleport
+		tellUsersOpsMenu = true
+		#The op permission level the player must have to be able to use create server warp command
+		#Range: 1 ~ 4
+		createPermissionLevel = 1
+		#The op permission level the player must have to be able to use delete server warp command
+		#Range: 1 ~ 4
+		deletePermissionLevel = 2
+		#The op permission level the player must have to be able to use the radial menu
+		#If onlyOpsMenu = true
+		#Range: 1 ~ 4
+		usePermissionLevel = 1
+		#The op permission level the player must have to be able to use server warps
+		#If onlyOpsServerWarpTeleport=true
+		#Range: 1 ~ 4
+		useServerWarpPermissionLevel = 1
+		#The op permission level the player must have to be able to use permission grant and revoke commands
+		#Range: 1 ~ 4
+		permissionsPermissionLevel = 2
+

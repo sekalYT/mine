@@ -1,0 +1,927 @@
+{
+	autofocus_id: "651FB7D9432B894D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "64EE0207FCD1DB22"
+	group: "65BFD66C567A90B5"
+	hide_quest_until_deps_visible: true
+	id: "64EE0207FCD1DB22"
+	images: [
+		{
+			height: 1.0d
+			image: "ftbteams:textures/background2.png"
+			rotation: 0.0d
+			width: 177.0d
+			x: 13.0d
+			y: 150.0d
+		}
+		{
+			height: 100.0d
+			image: "ftbteams:textures/i8.png"
+			rotation: 0.0d
+			width: 157.0d
+			x: 1.5d
+			y: -0.5d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "651FB7D9432B894D"
+			rewards: [{
+				count: 4
+				id: "0873F95E0DC6D9B6"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:upgrade_base"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37559AB703BACAB8"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Рюкзак уровень 1"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["651FB7D9432B894D"]
+			id: "3B97E8802122A54B"
+			rewards: [{
+				count: 6
+				id: "19C6F9CE20C42FE3"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:upgrade_base"
+					tag: { }
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "3DDC9024F4864735"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:copper_backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Рюкзак уровень 2"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B97E8802122A54B"]
+			id: "649FA26997229444"
+			rewards: [{
+				count: 8
+				id: "0899C165D1A14F27"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:upgrade_base"
+					tag: { }
+				}
+				type: "item"
+			}]
+			size: 1.75d
+			tasks: [{
+				id: "2504AFF8F1E7795A"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:iron_backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Рюкзак уровень 3"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["649FA26997229444"]
+			hide_text_until_complete: false
+			id: "4F433686CAF2F8C0"
+			rewards: [{
+				count: 10
+				id: "15AFFDDE3FA6CA52"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:upgrade_base"
+					tag: { }
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "3DB9F945390F6E3C"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:diamond_backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Рюкзак уровень 4"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F433686CAF2F8C0"]
+			id: "4B6569281834C6CC"
+			rewards: [{
+				id: "3185205B25778168"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			size: 2.25d
+			tasks: [{
+				id: "031DFFCA2D3C743C"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:netherite_backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Рюкзак уровень 5"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["651FB7D9432B894D"]
+			id: "3E4B82558B0E8C05"
+			rewards: [{
+				id: "453721ADC4C2F6DF"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "4C8F1EFDC6C91F2D"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:upgrade_base"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Шаблон"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "0BCCD51134022143"
+			rewards: [{
+				id: "2A404D7014C750E3"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "05C3DBEC3FD23063"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:pickup_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BCCD51134022143"]
+			id: "6277E8648FE4F7BF"
+			rewards: [{
+				id: "4534307472F29BE7"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "2F945E212482C20D"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:advanced_pickup_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "077A20A5F5CC5A66"
+			rewards: [{
+				id: "395BA5A7A544B77A"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "7B652F49D10DCE08"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:filter_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["077A20A5F5CC5A66"]
+			id: "11F65315297340BB"
+			rewards: [{
+				id: "75051882E7D13510"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "5FA18FDA95DEC662"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:advanced_filter_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "09D5114CDCA79DEB"
+			rewards: [{
+				id: "47E936D0785F2884"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "6EC0AEBCECDFA709"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:magnet_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["09D5114CDCA79DEB"]
+			id: "685994C212207087"
+			rewards: [{
+				id: "3FA85A7A764A7B8F"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "66E9D40DC2BEB5CF"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:advanced_magnet_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "32CFF3615E2CE6F1"
+			rewards: [{
+				id: "54860B4293DA235A"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "2704E7F35C0BF297"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:compacting_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["32CFF3615E2CE6F1"]
+			id: "20F9385F96FF58EB"
+			rewards: [{
+				id: "44589821557CF2DA"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "293FFDA439B0FA0A"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:advanced_compacting_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "25B045C34ADFFAE5"
+			rewards: [{
+				id: "08EBD9222D39BB63"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "21241845D9DB31B1"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:feeding_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["25B045C34ADFFAE5"]
+			id: "7A45776C7B417622"
+			rewards: [{
+				id: "16468662E3106C67"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "336CABB8790EA585"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:advanced_feeding_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "0FB093A7B2E2EBB3"
+			rewards: [{
+				id: "4192D62CFB8FDD25"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "51C8C51BAD6E0480"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:void_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0FB093A7B2E2EBB3"]
+			id: "69170234BCF559D0"
+			rewards: [{
+				id: "6C11C8B02AD3A76D"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "44398AF9BE36C1D1"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:advanced_void_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "12E68E4682EC2FBE"
+			rewards: [{
+				id: "3BA0D693D08CFBDA"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "1BCDA76018ABB7ED"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:restock_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12E68E4682EC2FBE"]
+			id: "0AA2EF6854970C85"
+			rewards: [{
+				id: "5554492C9A6CE56A"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "48B47DFD1215EAEC"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:advanced_restock_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "3B311A51D078758E"
+			rewards: [{
+				id: "43E46D42EB4C51D4"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "66136BDEF5A881FB"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:deposit_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B311A51D078758E"]
+			id: "331BF74EAB2BAEE5"
+			rewards: [{
+				id: "1F63708779C48E9E"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "3A71EF6D8D7055C1"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:advanced_deposit_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "01917FF361037E8E"
+			rewards: [{
+				id: "26F32BCC4283CF79"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "58084989AE877520"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:refill_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01917FF361037E8E"]
+			id: "643A8833DEE8EBE7"
+			rewards: [{
+				id: "38AFF3B5AD4F61D7"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "78F8D3895B1E3C49"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:advanced_refill_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "3A95DA4FE964F7B4"
+			rewards: [{
+				id: "7986D64F296D459E"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "73821A87FC91ED9A"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:inception_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "3A71531280FABE88"
+			rewards: [{
+				id: "2759E7DB90277118"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "13D30297E5EB5D70"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:everlasting_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B737B7D82635264"]
+			id: "763768F3652A6356"
+			rewards: [{
+				id: "36EE67E0EF29B72F"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "45CA609E29B04192"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:auto_smelting_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "1B737B7D82635264"
+			rewards: [{
+				id: "2986EF857B483461"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "7F0298D048E75A00"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:smelting_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "16E3A8E605EEA196"
+			rewards: [{
+				id: "7C431B48A8CC5876"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "76240C6DEB8CD3CF"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:smoking_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16E3A8E605EEA196"]
+			id: "37D03A4BE7D26FDB"
+			rewards: [{
+				id: "1346BB25E837EE6B"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "1686E91DDF45C2E6"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:auto_smoking_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "6BD0C30587A49F1F"
+			rewards: [{
+				id: "482F8A47A631640E"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "14F2F056BA1CC919"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:blasting_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6BD0C30587A49F1F"]
+			id: "26BE5F59C1A81B63"
+			rewards: [{
+				id: "40C7F347E765683C"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "7BEC5FCF0ABC02EC"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:auto_blasting_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "62E887B995FB582D"
+			rewards: [{
+				id: "521F6C7066CA9CC9"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "07510CD38AC85DDB"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:crafting_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62E887B995FB582D"]
+			id: "3B828E1CC1E4AFAA"
+			rewards: [{
+				id: "613FEE794BCDB869"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "08FF015FC6CDD017"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:stonecutter_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "6C60E20D7E2878CE"
+			rewards: [{
+				id: "6B4B9C892B023A45"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "3B71EA8F3371E6E1"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C60E20D7E2878CE"]
+			id: "0918D07725A2F99B"
+			rewards: [{
+				id: "3B5942ACE28197DB"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "2D28A3DD6CA87807"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0918D07725A2F99B"]
+			id: "4180F7D3E368FC98"
+			rewards: [{
+				id: "3F87CF71A912F243"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "02F710580745DA02"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_tier_2"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4180F7D3E368FC98"]
+			id: "3C92857203713F6E"
+			rewards: [{
+				id: "56ECE011A0732477"
+				type: "xp"
+				xp: 700
+			}]
+			tasks: [{
+				id: "4347A277AC20F589"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_tier_3"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C92857203713F6E"]
+			id: "309FC41775ABB8CF"
+			rewards: [{
+				id: "59735FF266495583"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "3995CE072826B56B"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_tier_4"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "4E8EB800E44EBABF"
+			rewards: [{
+				id: "3389D76296D77402"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "0A8209DF7A6A6F15"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:jukebox_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "09EA1B3B45B526B6"
+			rewards: [{
+				id: "46E737A76604E517"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "2A0CE18580CECA5C"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:anvil_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E4B82558B0E8C05"]
+			id: "010214EA2D270FE8"
+			rewards: [{
+				id: "0D73E928373F423C"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "48081A60C841FC35"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:tool_swapper_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["010214EA2D270FE8"]
+			id: "7ABB7F44391251AB"
+			rewards: [{
+				id: "5130F227D4E24734"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "6BF23287C7A8D731"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+	]
+	title: "Хранилище"
+}

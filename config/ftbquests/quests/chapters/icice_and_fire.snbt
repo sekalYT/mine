@@ -1,0 +1,2885 @@
+{
+	autofocus_id: "659DC2E64D452FC4"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "icice_and_fire"
+	group: "65BFD66C567A90B5"
+	id: "3783F12D1C62C453"
+	images: [{
+		height: 100.0d
+		image: "ftbteams:textures/i7.png"
+		rotation: 0.0d
+		width: 177.0d
+		x: -2.5d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "659DC2E64D452FC4"
+			tasks: [{
+				id: "1E1EB3709D9AE564"
+				item: "iceandfire:manuscript"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["296E503181DE65AE"]
+			id: "3928EFCBABDEB010"
+			tasks: [{
+				id: "792783A34AF6048E"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["296E503181DE65AE"]
+			id: "5971587BDD668750"
+			tasks: [{
+				id: "4436C1F0360869A5"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_shovel"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["296E503181DE65AE"]
+			id: "0AE2A7479E9A7914"
+			tasks: [{
+				id: "012F80351B290F59"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_hoe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["296E503181DE65AE"]
+			id: "2CCF0AE2D32DDC8B"
+			tasks: [{
+				id: "69B5E1E102B96CCC"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_axe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["296E503181DE65AE"]
+			id: "30EB1F8E6258A0E4"
+			tasks: [{
+				id: "457083D18A51A002"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6CF8B7CDE67082E2"
+				"5080633661226B5C"
+				"3928EFCBABDEB010"
+			]
+			id: "037A3CF4DD2160B5"
+			tasks: [{
+				id: "5D589CD743D9F0C3"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_fire"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"6CF8B7CDE67082E2"
+				"0BAB1BCE0C249D97"
+				"3928EFCBABDEB010"
+			]
+			id: "2BC441165E4908CE"
+			tasks: [{
+				id: "10BDDC1697E8CB76"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_ice"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"6CF8B7CDE67082E2"
+				"42729313D498B41C"
+				"3928EFCBABDEB010"
+			]
+			id: "7706D1F781267461"
+			tasks: [{
+				id: "2264872F74D9DD41"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_lightning"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0EA86915D000C3FB"]
+			id: "5080633661226B5C"
+			tasks: [{
+				id: "39FD76D0CCB7A9A6"
+				item: "iceandfire:fire_dragon_blood"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0EA86915D000C3FB"]
+			hide: true
+			id: "0BAB1BCE0C249D97"
+			tasks: [{
+				id: "23D91D0E08B96E8A"
+				item: "iceandfire:ice_dragon_blood"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EA86915D000C3FB"]
+			id: "42729313D498B41C"
+			tasks: [{
+				id: "0CE9942F2547F157"
+				item: "iceandfire:lightning_dragon_blood"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["14A0435186F6CE1C"]
+			id: "2186F7F06B35D0F2"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/lectern"
+				criterion: ""
+				id: "16C506FAB5A993F7"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["659DC2E64D452FC4"]
+			id: "14A0435186F6CE1C"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/bestiary"
+				criterion: ""
+				id: "6191F961CB888F30"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["659DC2E64D452FC4"]
+			id: "0EA86915D000C3FB"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_if_dragon"
+				criterion: ""
+				id: "464EFC53FDF42793"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0EA86915D000C3FB"]
+			id: "296E503181DE65AE"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonbone_tool"
+				criterion: ""
+				id: "5A7F343B855E86B0"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "6CF8B7CDE67082E2"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonbone_flaming_sword"
+				criterion: ""
+				id: "65AE277E58B52314"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0EA86915D000C3FB"]
+			id: "645A02781A9EDD68"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+				id: "20DA31D030A7A4A9"
+				type: "advancement"
+			}]
+			x: -14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"70499118FC43B2BF"
+				"645A02781A9EDD68"
+			]
+			id: "47A85A5B721F5E8B"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_staff"
+				criterion: ""
+				id: "10D39E6780D9CA1F"
+				type: "advancement"
+			}]
+			x: -12.5d
+			y: 7.0d
+		}
+		{
+			id: "70499118FC43B2BF"
+			tasks: [{
+				id: "3E91D8963C922E80"
+				item: "iceandfire:dragon_skull_fire"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["645A02781A9EDD68"]
+			id: "44D59A3F039FC511"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonarmor"
+				criterion: ""
+				id: "12BF34BE75EDD2AC"
+				type: "advancement"
+			}]
+			x: -13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["645A02781A9EDD68"]
+			id: "5A8E4A4D0408ED31"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_meal"
+				criterion: ""
+				id: "29A4E4D2BF58D994"
+				type: "advancement"
+			}]
+			x: -14.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["645A02781A9EDD68"]
+			id: "6FDA4B9943250C8A"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_flute"
+				criterion: ""
+				id: "26D67F84F5FFCCF0"
+				type: "advancement"
+			}]
+			x: -15.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["645A02781A9EDD68"]
+			id: "3D80028CA6DA176D"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_horn"
+				criterion: ""
+				id: "5CE04B9047F28586"
+				type: "advancement"
+			}]
+			x: -16.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["659DC2E64D452FC4"]
+			id: "47735E76A1D0A99C"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_pixie"
+				criterion: ""
+				id: "53F3F77E491BD988"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47735E76A1D0A99C"]
+			id: "2AB67B8D21BC0B8C"
+			tasks: [{
+				id: "029A737EEFD6D1AC"
+				item: "iceandfire:pixie_jar_empty"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2AB67B8D21BC0B8C"]
+			id: "6ACEC713B23E2821"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/jar_pixie"
+				criterion: ""
+				id: "5B1DFE3DD105F326"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47735E76A1D0A99C"]
+			id: "3AC2A7C0F975CE17"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/pixie_wand"
+				criterion: ""
+				id: "54E4003B547A3675"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["659DC2E64D452FC4"]
+			id: "7107885DB136A62B"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_cyclops"
+				criterion: ""
+				id: "458183AEE4F2F90A"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7107885DB136A62B"
+				"2DC4E9B12F113C1B"
+				"669353310D126358"
+				"4CE8738040B1CAA1"
+				"3060A285A60382A3"
+			]
+			id: "0BC917D971901005"
+			tasks: [{
+				id: "5DDC50333CF66EC1"
+				item: {
+					Count: 1
+					id: "iceandfire:cyclops_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["659DC2E64D452FC4"]
+			id: "77AB277E4AF954AB"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_amphithere"
+				criterion: ""
+				id: "68EE344A4CADAD86"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["659DC2E64D452FC4"]
+			id: "3B5FBB3BA0B84087"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_hippogryph"
+				criterion: ""
+				id: "00D6691F6CABF2E5"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["659DC2E64D452FC4"]
+			id: "29D2BC59C9B8A160"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_myrmex"
+				criterion: ""
+				id: "0655D972E0A4715F"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["29D2BC59C9B8A160"]
+			id: "03ABB4ED5D1A3096"
+			tasks: [{
+				id: "535D99616226AF39"
+				item: "iceandfire:myrmex_desert_chitin"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["29D2BC59C9B8A160"]
+			id: "61D4D5C87FF8C6C6"
+			tasks: [{
+				id: "33AB9778F66D1895"
+				item: "iceandfire:myrmex_desert_resin"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["61D4D5C87FF8C6C6"]
+			id: "6BCDC483A11C81DC"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/myrmex_resin"
+				criterion: ""
+				id: "57C838860C7F477F"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"659DC2E64D452FC4"
+				"25CF8B87C1607D0D"
+			]
+			id: "68CF5A3D8DBB87BD"
+			shape: "circle"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_siren"
+				criterion: ""
+				id: "459DB711D463D852"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["68CF5A3D8DBB87BD"]
+			id: "034304A4B41F1439"
+			tasks: [{
+				id: "4EF8223C50FFDB10"
+				item: "iceandfire:shiny_scales"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["034304A4B41F1439"]
+			id: "79EEA6DD9806EBB1"
+			tasks: [{
+				id: "59FD7B1CE9A7B207"
+				item: {
+					Count: 1
+					id: "iceandfire:siren_flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["659DC2E64D452FC4"]
+			hide_text_until_complete: false
+			id: "7495102B43C172FA"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_hippocampus"
+				criterion: ""
+				id: "7303BC76FA699F61"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7495102B43C172FA"]
+			id: "689E26EDDF4A5B96"
+			tasks: [{
+				id: "78C3613F81A31507"
+				item: "iceandfire:hippocampus_fin"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["689E26EDDF4A5B96"]
+			id: "60359901F5D3FB9D"
+			tasks: [{
+				id: "3DC4D1E0A0811A95"
+				item: {
+					Count: 1
+					id: "iceandfire:hippocampus_slapper"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0BC917D971901005"]
+			id: "055971DA1F89C0BE"
+			tasks: [{
+				id: "2A47FE34EE138853"
+				item: "iceandfire:cyclops_skull"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["659DC2E64D452FC4"]
+			id: "085D912625F55A20"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/rotten_egg"
+				criterion: ""
+				id: "7409FDA417C8B6D7"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["085D912625F55A20"]
+			id: "508A0CF34918A0A1"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_cockatrice"
+				criterion: ""
+				id: "62C7A3F39735B171"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["659DC2E64D452FC4"]
+			id: "619CFE4C5941E91B"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_troll"
+				criterion: ""
+				id: "15B9E3A2DD6AC01D"
+				type: "advancement"
+			}]
+			x: -23.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["659DC2E64D452FC4"]
+			id: "5D76877C5CAB8BE8"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_ghost"
+				criterion: ""
+				id: "36D4EBFC10C19D12"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6BCDC483A11C81DC"]
+			id: "10CA3192B76ED9F5"
+			tasks: [{
+				id: "7BE83D1D9BD0D96C"
+				item: "iceandfire:myrmex_desert_swarm"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["659DC2E64D452FC4"]
+			id: "74DDC0C0D6584121"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/gorgon_head"
+				criterion: ""
+				id: "4D29993E322F0D4C"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74DDC0C0D6584121"]
+			id: "5F23824DADDBF1FB"
+			tasks: [{
+				id: "77FB102D0ED5E372"
+				item: {
+					Count: 1
+					id: "iceandfire:blindfold"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"74DDC0C0D6584121"
+				"5F23824DADDBF1FB"
+			]
+			id: "15DDFE56D18561BA"
+			tasks: [{
+				id: "41690A210C2185CA"
+				item: {
+					Count: 1
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0EA86915D000C3FB"]
+			id: "6A206FA1351CC84A"
+			tasks: [{
+				id: "02034123D8CFA670"
+				item: "iceandfire:fire_dragon_heart"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EA86915D000C3FB"]
+			id: "15DA14398E98A23E"
+			tasks: [{
+				id: "68C2278F5E7E1D71"
+				item: "iceandfire:fire_dragon_flesh"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EA86915D000C3FB"]
+			id: "47C6FE9C73313FC4"
+			tasks: [{
+				id: "029115F7EDB00DC6"
+				item: "iceandfire:dragonscales_red"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["659DC2E64D452FC4"]
+			id: "5A6234ED88CAE1A4"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_sea_serpent"
+				criterion: ""
+				id: "3B487402CA2B1B8F"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["659DC2E64D452FC4"]
+			id: "3CA8FB6185876C8E"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_stymphalian_bird"
+				criterion: ""
+				id: "0A888911774CF7B1"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5A6234ED88CAE1A4"]
+			id: "030BF8ED23B717DD"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/use_tide_trident"
+				criterion: ""
+				id: "2C235D58438938E2"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3CA8FB6185876C8E"]
+			id: "69F09C8A9E414D6C"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/stymphalian_arrow"
+				criterion: ""
+				id: "39A33419D51E3FAA"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["659DC2E64D452FC4"]
+			id: "6A3827DC47B42694"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_deathworm"
+				criterion: ""
+				id: "12573ED720B8D323"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6A3827DC47B42694"]
+			id: "3BAA21F1E5016EB3"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/deathworm_egg"
+				criterion: ""
+				id: "6243077515345A32"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["659DC2E64D452FC4"]
+			id: "1DEBE2299C69B4A0"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_hydra"
+				criterion: ""
+				id: "613B26CC9537A33A"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DEBE2299C69B4A0"]
+			id: "3DB750BCCF59F0CE"
+			tasks: [{
+				id: "70B03D8EB4855638"
+				item: "iceandfire:hydra_heart"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D76877C5CAB8BE8"]
+			id: "5630170ED359737B"
+			tasks: [{
+				id: "238078D87B6B1CEE"
+				item: "iceandfire:ectoplasm"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5D76877C5CAB8BE8"]
+			id: "77D2A63A16D7C849"
+			tasks: [{
+				id: "7FD3B893C769E7FA"
+				item: "iceandfire:ghost_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["77D2A63A16D7C849"]
+			id: "76C1B4FEAAEC79EA"
+			tasks: [{
+				id: "2D68EE07BF8EE67F"
+				item: {
+					Count: 1
+					id: "iceandfire:ghost_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"645A02781A9EDD68"
+				"0E0B82EC265D6CF2"
+			]
+			id: "228A1DCE9D010182"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_forge_brick"
+				criterion: ""
+				id: "5BF471CC85054798"
+				type: "advancement"
+			}]
+			x: -16.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["228A1DCE9D010182"]
+			id: "138A5FC1B7459749"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_forge_core"
+				criterion: ""
+				id: "3EA28218CD6793BE"
+				type: "advancement"
+			}]
+			x: -16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["138A5FC1B7459749"]
+			id: "73567665C44913C1"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonsteel"
+				criterion: ""
+				id: "0824274D092D8E75"
+				type: "advancement"
+			}]
+			x: -16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73567665C44913C1"]
+			id: "2A64B83BC95A87DF"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonsteel_weapon"
+				criterion: ""
+				id: "70E9E6BFF701E2B8"
+				type: "advancement"
+			}]
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["619CFE4C5941E91B"]
+			id: "7B52D5A750EE95CE"
+			tasks: [{
+				id: "2B2C177FDEB60341"
+				item: "iceandfire:troll_skull"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1DEBE2299C69B4A0"]
+			id: "077C63EC5C94265C"
+			tasks: [{
+				id: "0A9593B197432E07"
+				item: "iceandfire:hydra_skull"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CA8FB6185876C8E"]
+			id: "462A0E703AA943E2"
+			tasks: [{
+				id: "6724A34DBAB88AEB"
+				item: "iceandfire:stymphalian_bird_feather"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3CA8FB6185876C8E"]
+			id: "10287B91214CB2A0"
+			tasks: [{
+				id: "71E8D11C5BBEA0B1"
+				item: {
+					Count: 1
+					id: "iceandfire:stymphalian_bird_dagger"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3CA8FB6185876C8E"]
+			id: "1954A263B1B6AF2D"
+			tasks: [{
+				id: "11840A722A307A1E"
+				item: "iceandfire:stymphalian_feather_bundle"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3B5FBB3BA0B84087"]
+			id: "43C79EFC33E068F5"
+			tasks: [{
+				id: "4BD85BD5B15ED2BB"
+				item: {
+					Count: 1
+					id: "iceandfire:hippogryph_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			id: "26672EA096F5DA40"
+			tasks: [{
+				id: "258B3365207F0B92"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["26672EA096F5DA40"]
+			id: "04BFF3E6EF8BB812"
+			tasks: [{
+				id: "030EB603234E4693"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["361EA2E08382470F"]
+			id: "021A4A4F8A26745F"
+			tasks: [{
+				id: "47AAB9233E3A6A76"
+				item: "iceandfire:silver_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			id: "5BCF461FE9843E18"
+			tasks: [{
+				id: "7342A6381BCBD84D"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_bow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["296E503181DE65AE"]
+			id: "507126B7BE645A5A"
+			tasks: [{
+				id: "6610C4B544BF10AB"
+				item: "iceandfire:witherbone"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["507126B7BE645A5A"]
+			id: "1844ED4BE2949BA9"
+			tasks: [{
+				id: "650A501AAD88118A"
+				item: "iceandfire:dragonbone_arrow"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["04BFF3E6EF8BB812"]
+			id: "76E5063C886BDFFB"
+			tasks: [{
+				id: "62855059969C06CF"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_copper_metal_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["04BFF3E6EF8BB812"]
+			id: "3B7A3849216B4B88"
+			tasks: [{
+				id: "005D7A940D3CB84B"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_copper_metal_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["04BFF3E6EF8BB812"]
+			id: "06E8A74A4CB064A0"
+			tasks: [{
+				id: "418B858B22105A21"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_copper_metal_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["04BFF3E6EF8BB812"]
+			id: "0F8D0EA3F7D5CD52"
+			tasks: [{
+				id: "4E4380B43CB71F0E"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_copper_metal_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["021A4A4F8A26745F"]
+			id: "444847B2D8037E17"
+			tasks: [{
+				id: "17CDBE3FA6E567F9"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_silver_metal_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["021A4A4F8A26745F"]
+			id: "3A70EE238E122DC7"
+			tasks: [{
+				id: "1A87A3AC55EBD137"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_silver_metal_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["47AAB9233E3A6A76"]
+			id: "719946C8A66960FC"
+			tasks: [{
+				id: "406683E3CBCC2064"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_silver_metal_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["021A4A4F8A26745F"]
+			id: "71D2D8BA1E00831A"
+			tasks: [{
+				id: "51A9EB3C73A020E4"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_silver_metal_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["04BFF3E6EF8BB812"]
+			id: "74C8826206DF0C56"
+			tasks: [{
+				id: "74E8ABA4CD69EBD3"
+				item: {
+					Count: 1
+					id: "iceandfire:copper_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["04BFF3E6EF8BB812"]
+			id: "3AB76A2085B1A819"
+			tasks: [{
+				id: "0D6B548EA4C33FA7"
+				item: {
+					Count: 1
+					id: "iceandfire:copper_shovel"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["021A4A4F8A26745F"]
+			id: "6C615D62D007C647"
+			tasks: [{
+				id: "647DF8CB4A40C24A"
+				item: {
+					Count: 1
+					id: "iceandfire:silver_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["04BFF3E6EF8BB812"]
+			id: "4EAD9DEA102F3BB6"
+			tasks: [{
+				id: "6F7C7353CC8C7A3D"
+				item: {
+					Count: 1
+					id: "iceandfire:copper_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["021A4A4F8A26745F"]
+			id: "4D10BD3B26E7AF71"
+			tasks: [{
+				id: "6046D89EB49FF218"
+				item: {
+					Count: 1
+					id: "iceandfire:silver_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["021A4A4F8A26745F"]
+			id: "61A3286EF895D481"
+			tasks: [{
+				id: "433FD7739D5B4BE0"
+				item: {
+					Count: 1
+					id: "iceandfire:silver_shovel"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["04BFF3E6EF8BB812"]
+			id: "6D95C50546AD42B3"
+			tasks: [{
+				id: "174271872E95FDE8"
+				item: {
+					Count: 1
+					id: "iceandfire:copper_axe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["04BFF3E6EF8BB812"]
+			id: "5CFFA59E5FCB4126"
+			tasks: [{
+				id: "0EC09EB8FC448297"
+				item: {
+					Count: 1
+					id: "iceandfire:copper_hoe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["021A4A4F8A26745F"]
+			id: "380573DA5BBB00A6"
+			tasks: [{
+				id: "566FA40A37904283"
+				item: {
+					Count: 1
+					id: "iceandfire:silver_axe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["47AAB9233E3A6A76"]
+			id: "45D2F102945EAC3F"
+			tasks: [{
+				id: "72287D52A4141A31"
+				item: {
+					Count: 1
+					id: "iceandfire:silver_hoe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["7107885DB136A62B"]
+			id: "2DC4E9B12F113C1B"
+			tasks: [{
+				id: "64765FA2A4E34092"
+				item: {
+					Count: 1
+					id: "iceandfire:sheep_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2DC4E9B12F113C1B"]
+			id: "669353310D126358"
+			tasks: [{
+				id: "0CDF0C52160B6C4C"
+				item: {
+					Count: 1
+					id: "iceandfire:sheep_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["669353310D126358"]
+			id: "4CE8738040B1CAA1"
+			tasks: [{
+				id: "2F559808423B5952"
+				item: {
+					Count: 1
+					id: "iceandfire:sheep_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4CE8738040B1CAA1"]
+			id: "3060A285A60382A3"
+			tasks: [{
+				id: "233547AA6D287492"
+				item: {
+					Count: 1
+					id: "iceandfire:sheep_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3B5FBB3BA0B84087"]
+			id: "25CD3DE71B97D600"
+			tasks: [{
+				id: "6090571987860922"
+				item: "iceandfire:iron_hippogryph_armor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["25CD3DE71B97D600"]
+			id: "62D38D330981472F"
+			tasks: [{
+				id: "1351E2C87591B679"
+				item: "iceandfire:gold_hippogryph_armor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["62D38D330981472F"]
+			id: "587D5BACAF50DD51"
+			tasks: [{
+				id: "166E02BF267B4FCB"
+				item: "iceandfire:diamond_hippogryph_armor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["03ABB4ED5D1A3096"]
+			id: "0F9F9D5420F08F97"
+			tasks: [{
+				id: "2A35C3E7AD85153F"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_desert_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["03ABB4ED5D1A3096"]
+			id: "738F19C2B995747A"
+			tasks: [{
+				id: "1BDD375AFF63DCA1"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_desert_sword_venom"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["03ABB4ED5D1A3096"]
+			id: "127DFBF275E3904E"
+			tasks: [{
+				id: "421640807BE1DCF8"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_desert_shovel"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["03ABB4ED5D1A3096"]
+			id: "79DD51DBFCAB221E"
+			tasks: [{
+				id: "360E5E4408E3225D"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_desert_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["03ABB4ED5D1A3096"]
+			id: "7D6B6E43A711208C"
+			tasks: [{
+				id: "3D4D3EE444F978F7"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_desert_axe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["03ABB4ED5D1A3096"]
+			id: "4B5A7B957FF29A7D"
+			tasks: [{
+				id: "1CEF76B6DDEAB311"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_desert_hoe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["03ABB4ED5D1A3096"]
+			id: "3B2906827CEEEEE8"
+			tasks: [{
+				id: "1959ABA220D90863"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_desert_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["03ABB4ED5D1A3096"]
+			id: "3EB1211B46ADE93F"
+			tasks: [{
+				id: "094BB700A5F26643"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_desert_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["03ABB4ED5D1A3096"]
+			id: "2968279F3EC408B5"
+			tasks: [{
+				id: "3D6E2BEA483A5FD1"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_desert_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["03ABB4ED5D1A3096"]
+			id: "4DFF6EF099B7B210"
+			tasks: [{
+				id: "7134BEC50BAC6DE1"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_desert_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["03ABB4ED5D1A3096"]
+			id: "6E467E5C43A90550"
+			tasks: [{
+				id: "169C7DEB6BD441E9"
+				item: "iceandfire:myrmex_desert_staff"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["087CDE098172F306"]
+			id: "4F8E9BCFCB17B865"
+			tasks: [{
+				id: "0315CD98B8DD15E1"
+				item: "iceandfire:myrmex_jungle_staff"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["087CDE098172F306"]
+			id: "0FA565AC8FF71DDD"
+			tasks: [{
+				id: "1D808F72BB1F1625"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_jungle_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["087CDE098172F306"]
+			id: "1A673BF3CFEF31D4"
+			tasks: [{
+				id: "4D6F4A086BB0CA3C"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_jungle_sword_venom"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["29D2BC59C9B8A160"]
+			id: "087CDE098172F306"
+			tasks: [{
+				id: "3045968017096FD2"
+				item: "iceandfire:myrmex_jungle_chitin"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["087CDE098172F306"]
+			id: "6A37C687BB8A755D"
+			tasks: [{
+				id: "5414F2FB9C8FDDFC"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_jungle_shovel"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["087CDE098172F306"]
+			id: "1F0DA3AB02AB27CF"
+			tasks: [{
+				id: "677A8484675A7554"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_jungle_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["087CDE098172F306"]
+			id: "73EECC2E2A6FF0BF"
+			tasks: [{
+				id: "7C7B828B44F250B3"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_jungle_axe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["087CDE098172F306"]
+			id: "7424163FE1293968"
+			tasks: [{
+				id: "0885BF4886DACD83"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_jungle_hoe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["087CDE098172F306"]
+			id: "4636B0ABF0DABA35"
+			tasks: [{
+				id: "60B74C50EC887085"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_jungle_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["087CDE098172F306"]
+			id: "6F19EA39E959384E"
+			tasks: [{
+				id: "4D78B68FB2E3ECF6"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_jungle_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["087CDE098172F306"]
+			id: "75E074AB28F1F78A"
+			tasks: [{
+				id: "7697163BF862DB02"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_jungle_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["087CDE098172F306"]
+			id: "2E5A5A13041094ED"
+			tasks: [{
+				id: "1B2B0897DBA731B1"
+				item: {
+					Count: 1
+					id: "iceandfire:myrmex_jungle_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["659DC2E64D452FC4"]
+			id: "69F6FF9E619A158E"
+			tasks: [{
+				id: "7B2189005AC9D330"
+				item: "iceandfire:dread_key"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["619CFE4C5941E91B"]
+			id: "643A85EF52968323"
+			tasks: [{
+				id: "3718776471B20EFA"
+				item: "iceandfire:troll_leather_forest"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["619CFE4C5941E91B"]
+			id: "6FC7E25E28CE4AA3"
+			tasks: [{
+				id: "6E42BB6D404703FA"
+				item: "iceandfire:troll_leather_frost"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["619CFE4C5941E91B"]
+			id: "13FCAA434A16FBE4"
+			tasks: [{
+				id: "29276253888C9513"
+				item: "iceandfire:troll_leather_mountain"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A6234ED88CAE1A4"]
+			id: "0C992D6115D3C3EA"
+			tasks: [{
+				id: "5C68FB4E69D81D0E"
+				item: "iceandfire:sea_serpent_scales_blue"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0C992D6115D3C3EA"]
+			id: "6A5A7A7D95BCD809"
+			tasks: [{
+				id: "79C1D28F1E9415BF"
+				item: {
+					Count: 1
+					id: "iceandfire:tide_blue_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0C992D6115D3C3EA"]
+			id: "2AB8E97710EDB4C2"
+			tasks: [{
+				id: "1D082AA52B16A5AC"
+				item: {
+					Count: 1
+					id: "iceandfire:tide_blue_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0C992D6115D3C3EA"]
+			id: "7D59EEB25B5A10F8"
+			tasks: [{
+				id: "6624F12305DE9CC4"
+				item: {
+					Count: 1
+					id: "iceandfire:tide_blue_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0C992D6115D3C3EA"]
+			id: "1E5164CFFA509845"
+			tasks: [{
+				id: "5A7D5750A92BA401"
+				item: {
+					Count: 1
+					id: "iceandfire:tide_blue_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["643A85EF52968323"]
+			id: "364B8AE45BDCFAA4"
+			tasks: [{
+				id: "1FADE86B3B8719E1"
+				item: {
+					Count: 1
+					id: "iceandfire:forest_troll_leather_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -24.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["643A85EF52968323"]
+			id: "1D03508C449D4ECF"
+			tasks: [{
+				id: "4399EB63CC1C943F"
+				item: {
+					Count: 1
+					id: "iceandfire:forest_troll_leather_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -24.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["643A85EF52968323"]
+			id: "331403142C95AF54"
+			tasks: [{
+				id: "7FB3AE92879F9561"
+				item: {
+					Count: 1
+					id: "iceandfire:forest_troll_leather_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -24.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["643A85EF52968323"]
+			id: "1D6A2D1252A827A8"
+			tasks: [{
+				id: "3A63E5061AAB91D0"
+				item: {
+					Count: 1
+					id: "iceandfire:forest_troll_leather_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -24.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6FC7E25E28CE4AA3"]
+			id: "65F4084E664BB5FA"
+			tasks: [{
+				id: "1766694F104A46DE"
+				item: {
+					Count: 1
+					id: "iceandfire:frost_troll_leather_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -23.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6FC7E25E28CE4AA3"]
+			id: "087C6584C0EAED88"
+			tasks: [{
+				id: "0AA6629DF7E3C561"
+				item: {
+					Count: 1
+					id: "iceandfire:frost_troll_leather_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -22.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6FC7E25E28CE4AA3"]
+			id: "5134D31E182C4D64"
+			tasks: [{
+				id: "7FD20759331D4D3F"
+				item: {
+					Count: 1
+					id: "iceandfire:frost_troll_leather_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -22.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6FC7E25E28CE4AA3"]
+			id: "4145CE44DA41304C"
+			tasks: [{
+				id: "630F6E38A517EF16"
+				item: {
+					Count: 1
+					id: "iceandfire:frost_troll_leather_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["13FCAA434A16FBE4"]
+			id: "46BCEDAB92829BCC"
+			tasks: [{
+				id: "2AF764A6208E7376"
+				item: {
+					Count: 1
+					id: "iceandfire:mountain_troll_leather_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["13FCAA434A16FBE4"]
+			id: "03FF470BE71F2B53"
+			tasks: [{
+				id: "0176606D6684EA39"
+				item: {
+					Count: 1
+					id: "iceandfire:mountain_troll_leather_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -20.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["13FCAA434A16FBE4"]
+			id: "59703052C420CB62"
+			tasks: [{
+				id: "7D41DB62631787A5"
+				item: {
+					Count: 1
+					id: "iceandfire:mountain_troll_leather_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["13FCAA434A16FBE4"]
+			id: "05EB0197DE3ACAFF"
+			tasks: [{
+				id: "54A7714E2DC521D0"
+				item: {
+					Count: 1
+					id: "iceandfire:mountain_troll_leather_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -18.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["47C6FE9C73313FC4"]
+			id: "4F1846FBC63DCE19"
+			tasks: [{
+				id: "7605548DF0397505"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_red_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["47C6FE9C73313FC4"]
+			id: "64CAF1E678C887A9"
+			tasks: [{
+				id: "6934A1FE432DC719"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_red_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["47C6FE9C73313FC4"]
+			id: "5FCF333FB471D04D"
+			tasks: [{
+				id: "27869F090F3203E4"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_red_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["47C6FE9C73313FC4"]
+			id: "43F6705108DAC81C"
+			tasks: [{
+				id: "2A0E67CD595DBB09"
+				item: {
+					Count: 1
+					id: "iceandfire:armor_red_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1DEBE2299C69B4A0"]
+			id: "6B2B5C51BF3424BC"
+			tasks: [{
+				id: "6B7CE75364876CF4"
+				item: "iceandfire:hydra_fang"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["73567665C44913C1"]
+			id: "04E3346A5F5EB683"
+			tasks: [{
+				id: "3A1D555D1EC08481"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 1.0d
+		}
+		{
+			id: "0E0B82EC265D6CF2"
+			tasks: [{
+				id: "59F60F1DDFF88292"
+				item: "iceandfire:chain"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B2B5C51BF3424BC"]
+			id: "1664E6B9496AFC3C"
+			tasks: [{
+				id: "2DFD074EBA8396B6"
+				item: "iceandfire:hydra_arrow"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["04E3346A5F5EB683"]
+			id: "2A9CCFA145EA84C2"
+			tasks: [{
+				id: "75F3B9A62E7669CF"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04E3346A5F5EB683"]
+			id: "0AD5831B557ADA3B"
+			tasks: [{
+				id: "06F18AEA0A92B2B0"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_pickaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04E3346A5F5EB683"]
+			id: "2DD1E2980258EB71"
+			tasks: [{
+				id: "42CEF1F46D0D4E3F"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_shovel"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04E3346A5F5EB683"]
+			id: "21D0276BFC2E3203"
+			tasks: [{
+				id: "4ADA5984F2CE0DE8"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_axe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04E3346A5F5EB683"]
+			id: "04599DE0E684F02B"
+			tasks: [{
+				id: "36C5D6BBA7F57263"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_hoe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04E3346A5F5EB683"]
+			id: "3DD389B68AB7D890"
+			tasks: [{
+				id: "4A95BF836E52BC60"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04E3346A5F5EB683"]
+			id: "2E2FA705AD7983A1"
+			tasks: [{
+				id: "660F13077B7F4512"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_chestplate"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04E3346A5F5EB683"]
+			id: "48016CE02414C5D7"
+			tasks: [{
+				id: "74B63410E17E8977"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_leggings"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["04E3346A5F5EB683"]
+			id: "1C1891407E8AB514"
+			tasks: [{
+				id: "6F7375D28FA8366E"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_boots"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77AB277E4AF954AB"]
+			id: "23E822EA9803E869"
+			tasks: [{
+				id: "00DB7ABBC2C3537C"
+				item: "iceandfire:amphithere_feather"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23E822EA9803E869"]
+			id: "17D185A9EE34701D"
+			tasks: [{
+				id: "4C927B5E9C19AA9F"
+				item: "iceandfire:amphithere_arrow"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["23E822EA9803E869"]
+			id: "0FB22F0421FD70C1"
+			tasks: [{
+				id: "3575C9A26808F433"
+				item: {
+					Count: 1
+					id: "iceandfire:amphithere_macuahuitl"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["77AB277E4AF954AB"]
+			id: "161218B365FC64DA"
+			tasks: [{
+				id: "1B9AF6C94605E58A"
+				item: "iceandfire:amphithere_skull"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			id: "25CF8B87C1607D0D"
+			tasks: [{
+				id: "2B11A09715B19D2F"
+				item: {
+					Count: 1
+					id: "iceandfire:earplugs"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["15B9E3A2DD6AC01D"]
+			id: "0BB747D8546707AC"
+			tasks: [{
+				id: "651958F71954B899"
+				item: {
+					Count: 1
+					id: "iceandfire:troll_weapon_axe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69F6FF9E619A158E"]
+			id: "5804B7FA39786798"
+			tasks: [{
+				id: "585A5D4C6A2F9C01"
+				item: "iceandfire:dread_shard"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["508A0CF34918A0A1"]
+			id: "5AF3FD96768C1F3B"
+			tasks: [{
+				id: "63030EC0AF85A9E2"
+				item: "iceandfire:cockatrice_eye"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3BAA21F1E5016EB3"]
+			id: "7AD2965ED93FC69C"
+			tasks: [{
+				id: "21B7B153ED3C233C"
+				item: {
+					Count: 1
+					id: "iceandfire:deathworm_gauntlet_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["645A02781A9EDD68"]
+			id: "36E5A8716310CACF"
+			tasks: [{
+				id: "3B8485BA754A97DF"
+				item: "iceandfire:summoning_crystal_fire"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["508A0CF34918A0A1"]
+			id: "50131ADD95A44243"
+			tasks: [{
+				id: "42C0DF9E27F95062"
+				item: {
+					Count: 1
+					id: "iceandfire:cockatrice_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5A8E4A4D0408ED31"]
+			id: "3609B694EE2C8BB2"
+			tasks: [{
+				id: "4A252C8B5E631355"
+				item: "iceandfire:sickly_dragon_meal"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 8.0d
+		}
+		{
+			id: "361EA2E08382470F"
+			tasks: [{
+				id: "63C1C9AEC64C41BB"
+				item: "iceandfire:raw_silver"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+	]
+	title: "Драконы"
+}

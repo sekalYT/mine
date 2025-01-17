@@ -1,0 +1,22 @@
+{
+  "id": "Смерть-16-48-33-01-08-2025_340-83-934",
+  "name": "Смерть 16:48:33 01-08-2025",
+  "icon": "journeymap:ui/img/waypoint-death-icon.png",
+  "colorizedIcon": "fake:color--433341-waypoint-death-icon.png",
+  "x": 340,
+  "y": 83,
+  "z": 934,
+  "r": 249,
+  "g": 99,
+  "b": 67,
+  "enable": true,
+  "type": "Death",
+  "origin": "journeymap",
+  "dimensions": [
+    "sololeveling:dungeon_dimension_lush"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

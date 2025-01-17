@@ -1,0 +1,534 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2E365CF5AC0DB559"
+	group: "65BFD66C567A90B5"
+	id: "2E365CF5AC0DB559"
+	images: [{
+		height: 100.0d
+		image: "ftbteams:textures/i1.png"
+		rotation: 0.0d
+		width: 177.0d
+		x: 6.0d
+		y: -13.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4F96F60B5F72CEDA"
+			tasks: [{
+				id: "7F77EDBC9C3A051C"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F96F60B5F72CEDA"]
+			id: "0387522180E7B9DA"
+			tasks: [{
+				id: "0B128F2BFBE2A3C1"
+				item: {
+					Count: 1
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0387522180E7B9DA"]
+			id: "09B958BFB54189EF"
+			tasks: [{
+				id: "048A949BCA91A78D"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0387522180E7B9DA"]
+			id: "5CF0C1890B67D3CF"
+			tasks: [{
+				id: "36D5F60D4B94F811"
+				item: {
+					Count: 1
+					id: "aquaculture:gold_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5CF0C1890B67D3CF"]
+			id: "3C2FD32CEC0E8477"
+			tasks: [{
+				id: "144CB4B156DA892B"
+				item: {
+					Count: 1
+					id: "aquaculture:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F96F60B5F72CEDA"]
+			id: "37EBB72FA42B5317"
+			tasks: [{
+				id: "2F6615117F2262E7"
+				item: {
+					Count: 1
+					id: "aquaculture:wooden_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F96F60B5F72CEDA"]
+			id: "6F1CD95AFE5EA86D"
+			tasks: [{
+				id: "0CD503001A4241D8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "aquaculture:acacia_fish_mount"
+							}
+							{
+								Count: 1b
+								id: "aquaculture:jungle_fish_mount"
+							}
+							{
+								Count: 1b
+								id: "aquaculture:oak_fish_mount"
+							}
+							{
+								Count: 1b
+								id: "aquaculture:spruce_fish_mount"
+							}
+							{
+								Count: 1b
+								id: "aquaculture:birch_fish_mount"
+							}
+							{
+								Count: 1b
+								id: "aquaculture:dark_oak_fish_mount"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37EBB72FA42B5317"]
+			id: "0AA96A82302211B6"
+			tasks: [{
+				id: "708C2E922CC06DC5"
+				item: {
+					Count: 1
+					id: "aquaculture:stone_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0AA96A82302211B6"]
+			id: "1BAAAAD3EA3378C7"
+			tasks: [{
+				id: "4D33D924F95ADDB6"
+				item: {
+					Count: 1
+					id: "aquaculture:iron_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1BAAAAD3EA3378C7"]
+			id: "691191742A94C45B"
+			tasks: [{
+				id: "76E1CB499EF221BF"
+				item: {
+					Count: 1
+					id: "aquaculture:gold_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["691191742A94C45B"]
+			id: "4DD9EFFDD0D602E7"
+			tasks: [{
+				id: "4136EBFAEF2CD51C"
+				item: {
+					Count: 1
+					id: "aquaculture:diamond_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4DD9EFFDD0D602E7"]
+			id: "171576A2E521D593"
+			tasks: [{
+				id: "06C0A55CB5C7CA09"
+				item: "aquaculture:neptunium_fillet_knife"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C2FD32CEC0E8477"]
+			id: "3ADC6937D4DBA124"
+			tasks: [{
+				id: "5D0F8E71A6630C1B"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F1CD95AFE5EA86D"]
+			id: "74B8362921292B3D"
+			tasks: [{
+				id: "34B741FF59133DDC"
+				item: "aquaculture:turtle_soup"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["09B958BFB54189EF"]
+			id: "0395CDC8F4D8F36F"
+			tasks: [{
+				id: "785053F7F194F313"
+				item: "aquaculture:iron_hook"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0395CDC8F4D8F36F"]
+			id: "24F3E710BCADA758"
+			tasks: [{
+				id: "178FEB86B1341BAA"
+				item: "aquaculture:gold_hook"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0395CDC8F4D8F36F"]
+			id: "17239F04FE8D9BBA"
+			tasks: [{
+				id: "37075B6E658E02D9"
+				item: "aquaculture:diamond_hook"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0395CDC8F4D8F36F"]
+			id: "58CBB3C33E009331"
+			tasks: [{
+				id: "6A4AF7650F5FE156"
+				item: "aquaculture:light_hook"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0395CDC8F4D8F36F"]
+			id: "37652B10341176D6"
+			tasks: [{
+				id: "58B83F916E846086"
+				item: "aquaculture:heavy_hook"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0395CDC8F4D8F36F"]
+			id: "47F28CAE673EA5EC"
+			tasks: [{
+				id: "5C7F8891DC6A1365"
+				item: "aquaculture:double_hook"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0395CDC8F4D8F36F"]
+			id: "0E92778831C98FF2"
+			tasks: [{
+				id: "0BC87DE1120FAD15"
+				item: "aquaculture:note_hook"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0395CDC8F4D8F36F"]
+			id: "12B98BC45600F57C"
+			tasks: [{
+				id: "3B65928D3367018B"
+				item: "aquaculture:nether_star_hook"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["679643DC489081D0"]
+			id: "60F173A75CB8A3B6"
+			tasks: [{
+				id: "1D109C649EB986AA"
+				item: {
+					Count: 1
+					id: "aquaculture:worm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["09B958BFB54189EF"]
+			id: "47D73377894BEB11"
+			tasks: [{
+				id: "53913A7EA8181882"
+				item: "aquaculture:fishing_line"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["09B958BFB54189EF"]
+			id: "0ABA70266936EE73"
+			tasks: [{
+				id: "4CE7803497B5FEF0"
+				item: "aquaculture:bobber"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6F1CD95AFE5EA86D"]
+			id: "71A83DDC97E2DECD"
+			tasks: [{
+				id: "252D495FA10D0D8F"
+				item: "aquaculture:fish_bones"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71A83DDC97E2DECD"]
+			id: "05949A512B891188"
+			tasks: [{
+				id: "65DFBC00D6050792"
+				item: "aquaculture:fish_fillet_raw"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["05949A512B891188"]
+			id: "59C2EE4B5DB66FD6"
+			tasks: [{
+				id: "4902CA0ED6263F1D"
+				item: "aquaculture:fish_fillet_cooked"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6F1CD95AFE5EA86D"]
+			id: "78A28069A7872E39"
+			tasks: [{
+				id: "688FD178415B113D"
+				item: "aquaculture:algae"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0395CDC8F4D8F36F"]
+			id: "59180FD77019355E"
+			tasks: [{
+				id: "79DA93364E9397B4"
+				item: "aquaculture:redstone_hook"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["09B958BFB54189EF"]
+			id: "679643DC489081D0"
+			tasks: [{
+				id: "48A1F12218E7EBB7"
+				item: "aquaculture:worm_farm"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4F96F60B5F72CEDA"]
+			id: "06C2871729273728"
+			tasks: [{
+				id: "1CAE26A180D36A82"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06C2871729273728"]
+			id: "74EA92D81BBC840A"
+			tasks: [{
+				id: "401D9636A03EBB28"
+				item: "aquaculture:lockbox"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74EA92D81BBC840A"]
+			id: "3C5A8582F0EF123A"
+			tasks: [{
+				id: "10549D05956DFF16"
+				item: "aquaculture:treasure_chest"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C5A8582F0EF123A"]
+			id: "539D839280719B7E"
+			tasks: [{
+				id: "6FCE483A3AF5B42E"
+				item: "aquaculture:neptunes_bounty"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F1CD95AFE5EA86D"]
+			id: "602D25DA7B42F2FB"
+			tasks: [{
+				id: "618E05F5CFEE4B0C"
+				item: "aquaculture:driftwood"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6F1CD95AFE5EA86D"]
+			id: "3263258A54326D65"
+			tasks: [{
+				id: "2EACD5DF30467AF6"
+				item: "aquaculture:tin_can"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F1CD95AFE5EA86D"]
+			id: "1CA3B27A044D236C"
+			tasks: [{
+				id: "31A6775C2E38E2D3"
+				item: "aquaculture:message_in_a_bottle"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+	]
+	title: "Рыбалка"
+}

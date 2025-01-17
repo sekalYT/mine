@@ -1,0 +1,1343 @@
+{
+	autofocus_id: "166757F2BE5D5A59"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "solo_leveling"
+	group: ""
+	id: "5C1FC094D131B0A6"
+	images: [{
+		height: 100.0d
+		image: "ftbteams:textures/i9.png"
+		rotation: 0.0d
+		width: 177.0d
+		x: 4.5d
+		y: 0.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2D802525E0935EA6"
+			tasks: [{
+				id: "54CF759A255E7F4E"
+				title: "Соберите все оружие в моде "
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			id: "11047D0E8D753553"
+			tasks: [{
+				entity: "sololeveling:goblin"
+				id: "665FF0FDF7621D46"
+				type: "kill"
+				value: 5L
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			id: "030B131771E50663"
+			tasks: [{
+				entity: "sololeveling:d_knight_1"
+				id: "25BEB00689D614E6"
+				type: "kill"
+				value: 5L
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			id: "7232CB57DF089659"
+			tasks: [{
+				entity: "sololeveling:d_knight_2"
+				id: "5E39F5F0731E2316"
+				type: "kill"
+				value: 5L
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			id: "234430B64103332C"
+			tasks: [{
+				entity: "sololeveling:d_knight_3"
+				id: "32FB5C88406A8516"
+				type: "kill"
+				value: 5L
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["11047D0E8D753553"]
+			id: "722F6CBC3D94E710"
+			subtitle: "Король гоблинов"
+			tasks: [{
+				entity: "sololeveling:goblin_king"
+				id: "79A6F0734D4379E0"
+				title: "Босс?"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			id: "234BDCD6E65D62FE"
+			tasks: [
+				{
+					advancement: "sololeveling:awakened"
+					criterion: ""
+					id: "19919FCE49A090B4"
+					title: "Узнать свой ранг"
+					type: "advancement"
+				}
+				{
+					id: "22815B4C7F7C3725"
+					structure: "sololeveling:evaluator"
+					title: "Проверка уровня"
+					type: "structure"
+				}
+			]
+			x: -11.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["2F7B6DBED28FB9E1"]
+			id: "5B03E17823786CC9"
+			tasks: [{
+				advancement: "sololeveling:kasakas_domain"
+				criterion: ""
+				id: "61A65D35707C27BD"
+				type: "advancement"
+			}]
+			x: 20.5d
+			y: 0.5d
+		}
+		{
+			id: "5350B3C2824EEE8F"
+			tasks: [{
+				advancement: "sololeveling:coldest_monarch"
+				criterion: ""
+				id: "30C0811E617E3A1E"
+				type: "advancement"
+			}]
+			x: -18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B032EB85CCD7D2B"]
+			id: "6E29E0C39BB08FE5"
+			tasks: [{
+				advancement: "sololeveling:ant_king"
+				criterion: ""
+				id: "51DE08DADFE723B7"
+				type: "advancement"
+			}]
+			x: 17.5d
+			y: 5.5d
+		}
+		{
+			id: "0E79A38FC890F63D"
+			tasks: [{
+				advancement: "sololeveling:monarch_of_blue_flames"
+				criterion: ""
+				id: "1C522A7071AFBA6D"
+				type: "advancement"
+			}]
+			x: -17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DD5AB4B88AA57AE"]
+			id: "7761096AD93062C3"
+			tasks: [{
+				advancement: "sololeveling:giant_spider"
+				criterion: ""
+				id: "091F60E296C1F314"
+				type: "advancement"
+			}]
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0EEEB8A57900B024"]
+			id: "71457BBB547000A2"
+			tasks: [{
+				advancement: "sololeveling:blood_red_commander_igris"
+				criterion: ""
+				id: "67D2CF69BFE677FF"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6EB34F4C599B8D69"]
+			id: "4915B4AC080D28B8"
+			tasks: [{
+				advancement: "sololeveling:shadow_extraction"
+				criterion: ""
+				id: "24A26DAA60FBA5CF"
+				type: "advancement"
+			}]
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4915B4AC080D28B8"]
+			id: "74418A709A7AF257"
+			tasks: [{
+				advancement: "sololeveling:shadow_storage"
+				criterion: ""
+				id: "2D1911C15F11DEB6"
+				type: "advancement"
+			}]
+			x: -16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["74418A709A7AF257"]
+			id: "214C11A06A7E39C8"
+			tasks: [{
+				advancement: "sololeveling:shadow_storage_level_2"
+				criterion: ""
+				id: "7501DE3A5DD67D1A"
+				type: "advancement"
+			}]
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["214C11A06A7E39C8"]
+			id: "36B67E67D5C38BD8"
+			tasks: [{
+				advancement: "sololeveling:shadow_storage_level_3"
+				criterion: ""
+				id: "0A04C6042FAE2D15"
+				type: "advancement"
+			}]
+			x: -15.0d
+			y: -4.0d
+		}
+		{
+			id: "2FE332A33E35B341"
+			tasks: [{
+				advancement: "sololeveling:regeneration_level_1"
+				criterion: ""
+				id: "22504670A8772B7A"
+				type: "advancement"
+			}]
+			x: -18.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2FE332A33E35B341"]
+			id: "06D0AD03E8BDF0B4"
+			tasks: [{
+				advancement: "sololeveling:regeneration_level_2"
+				criterion: ""
+				id: "428AC1C3A95F2FDF"
+				type: "advancement"
+			}]
+			x: -17.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["06D0AD03E8BDF0B4"]
+			id: "07220BE2314B5DB3"
+			tasks: [{
+				advancement: "sololeveling:regeneration_level_3"
+				criterion: ""
+				id: "6480764BB469ECC1"
+				type: "advancement"
+			}]
+			x: -16.0d
+			y: 7.5d
+		}
+		{
+			id: "6EB34F4C599B8D69"
+			tasks: [{
+				advancement: "sololeveling:monarchs_domain"
+				criterion: ""
+				id: "5DE00854DF9640AF"
+				type: "advancement"
+			}]
+			x: -16.0d
+			y: -1.0d
+		}
+		{
+			id: "7DD66418F92A1107"
+			tasks: [{
+				entity: "sololeveling:steel_fang_wolf"
+				id: "3CFC6A0E6F4FC51D"
+				type: "kill"
+				value: 5L
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			id: "42E1818AB8534737"
+			tasks: [{
+				entity: "sololeveling:stone_golem"
+				id: "35558ED5FBB31606"
+				type: "kill"
+				value: 5L
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0C7B4F5397010B68"]
+			id: "5DD5AB4B88AA57AE"
+			tasks: [{
+				entity: "sololeveling:spider_boss"
+				id: "77CEE27F8B8C8FB7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7051D420B9DC1C82"]
+			id: "0EEEB8A57900B024"
+			tasks: [{
+				entity: "sololeveling:igris"
+				id: "030DF1DADB14C2C3"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			id: "0534E1CF4B9CD845"
+			tasks: [{
+				id: "5F93148B0632619B"
+				item: "sololeveling:mana_crystal_s"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["58A9331928D47CFB"]
+			id: "7051D420B9DC1C82"
+			tasks: [{
+				biome: "sololeveling:dungeon_biome_igris"
+				id: "50C40887DC6AA646"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["71457BBB547000A2"]
+			id: "6ACD78651618D056"
+			tasks: [{
+				id: "04BD109780A4012D"
+				item: "sololeveling:job_key"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			id: "4610DEBEB284A83D"
+			tasks: [{
+				id: "554103A9E45892DC"
+				item: {
+					Count: 1
+					id: "sololeveling:sword_warrior_d"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -4.0d
+		}
+		{
+			id: "283078CF296EC3BC"
+			tasks: [{
+				id: "7F30C904CF398FCA"
+				item: {
+					Count: 1
+					id: "sololeveling:sword_enriched_b"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -7.0d
+		}
+		{
+			id: "5F60CF2465D9B74F"
+			tasks: [{
+				id: "350215976FE91217"
+				item: {
+					Count: 1
+					id: "sololeveling:sword_curved_d"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -4.0d
+		}
+		{
+			id: "347698F73F316AF5"
+			tasks: [{
+				id: "7D3EEA017270D629"
+				item: {
+					Count: 1
+					id: "sololeveling:e_tier_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			id: "6A1334EC691C1475"
+			tasks: [{
+				id: "0B001BEF1FE4308A"
+				item: {
+					Count: 1
+					id: "sololeveling:d_tier_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			id: "239D4FD63AEBE339"
+			tasks: [{
+				id: "5332E48E0163EEC6"
+				item: {
+					Count: 1
+					id: "sololeveling:b_tier_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			id: "689CC35312F8B6BC"
+			tasks: [{
+				id: "11D8695F4304091B"
+				item: {
+					Count: 1
+					id: "sololeveling:a_tier_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			id: "7A0CC301AFACE024"
+			tasks: [{
+				id: "33ECEFD9BEBB28FF"
+				item: {
+					Count: 1
+					id: "sololeveling:s_tier_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			id: "7AAE3E3683A24DC3"
+			tasks: [{
+				id: "43A8D33446AC11EA"
+				item: {
+					Count: 1
+					id: "sololeveling:dagger_heat_a"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -7.0d
+		}
+		{
+			id: "0ED79150A339B74A"
+			tasks: [{
+				id: "36CA9832FBB89FC7"
+				item: {
+					Count: 1
+					id: "sololeveling:dagger_golden_b"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -6.0d
+		}
+		{
+			id: "4BE070DBB098E0AE"
+			tasks: [{
+				id: "42139F60D8DA8F02"
+				item: {
+					Count: 1
+					id: "sololeveling:dagger_karambit_e"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -6.0d
+		}
+		{
+			id: "175BEA6716F29FD9"
+			tasks: [{
+				id: "52BE288B08CAF16A"
+				item: {
+					Count: 1
+					id: "sololeveling:dagger_duolity_a"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: -7.0d
+		}
+		{
+			id: "6A141723A1FA1111"
+			tasks: [{
+				id: "40A037438D9D950B"
+				item: {
+					Count: 1
+					id: "sololeveling:dagger_knight_d"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: -4.0d
+		}
+		{
+			id: "60D8DC40838D2629"
+			tasks: [{
+				id: "36A3D9F72ADBE08F"
+				item: {
+					Count: 1
+					id: "sololeveling:dagger_chain_c"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: -5.0d
+		}
+		{
+			id: "18932AF7F1468397"
+			tasks: [{
+				id: "288768518C3A2E59"
+				item: {
+					Count: 1
+					id: "sololeveling:dagger_fang_c"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: -5.0d
+		}
+		{
+			id: "3DF142B96701253E"
+			tasks: [{
+				id: "597D2B2BF8D52E34"
+				item: {
+					Count: 1
+					id: "sololeveling:dagger_leaf_b"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -7.0d
+		}
+		{
+			id: "60E39E231BF3CDA2"
+			tasks: [{
+				id: "4461A9D19ECAE4F0"
+				item: {
+					Count: 1
+					id: "sololeveling:dagger_mud_d"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -4.0d
+		}
+		{
+			id: "6B32D8FBB1748FB7"
+			tasks: [{
+				id: "07C5FE03F68D5CF2"
+				item: {
+					Count: 1
+					id: "sololeveling:gravity_dagger"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: -6.0d
+		}
+		{
+			id: "3AEE8D25A6027E90"
+			tasks: [{
+				id: "38EB7326C353763A"
+				item: {
+					Count: 1
+					id: "sololeveling:mythic_dagger"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -10.0d
+		}
+		{
+			id: "46C870CB3833D3DA"
+			tasks: [{
+				id: "66348294424826EA"
+				item: {
+					Count: 1
+					id: "sololeveling:emerald_dagger"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: -6.0d
+		}
+		{
+			id: "577C2B6268B64978"
+			tasks: [{
+				id: "116E832C2D18888A"
+				item: {
+					Count: 1
+					id: "sololeveling:barukas_dagger"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			id: "7429424641392722"
+			tasks: [{
+				id: "424642AAB319634D"
+				item: {
+					Count: 1
+					id: "sololeveling:demon_kings_dagger"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -9.0d
+		}
+		{
+			id: "7240284462DE4A87"
+			tasks: [{
+				id: "2A69AFE21529BD1B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 9
+						}
+					}
+					id: "sololeveling:griamore"
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -9.0d
+		}
+		{
+			id: "1D5CE0DB814A0B24"
+			tasks: [{
+				id: "47ECE2A82450E42B"
+				item: "sololeveling:hammer"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -8.0d
+		}
+		{
+			id: "4DF07F2E0FFE2EA9"
+			tasks: [{
+				id: "27D51DB1BD789A23"
+				item: "sololeveling:war_axe"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -8.0d
+		}
+		{
+			id: "2DB0CDBF14FB2A26"
+			tasks: [{
+				id: "763432638538D24B"
+				item: {
+					Count: 1
+					id: "sololeveling:knight_killer"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: -7.0d
+		}
+		{
+			id: "2835E8CEB60D1D91"
+			tasks: [{
+				id: "3914F2F89BFC67F1"
+				item: {
+					Count: 1
+					id: "sololeveling:ice_spear"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -6.0d
+		}
+		{
+			id: "463E7993DFB01C75"
+			tasks: [{
+				id: "744CBDD1B6E1F601"
+				item: {
+					Count: 1
+					id: "sololeveling:kasakas_venom_fangs"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			id: "3AF045DF8D60973E"
+			tasks: [{
+				id: "1314966F8561EE2E"
+				item: {
+					Count: 1
+					id: "sololeveling:katana_stier"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: -8.0d
+		}
+		{
+			id: "77244C38B8703FF1"
+			tasks: [{
+				id: "4B7D1C9BC8EA76A8"
+				item: "sololeveling:spirit_bow"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -6.0d
+		}
+		{
+			id: "2141638412B8E8D3"
+			tasks: [{
+				id: "52E9A63CC2491460"
+				item: {
+					Count: 1
+					id: "sololeveling:sword_twinwing_c"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -5.0d
+		}
+		{
+			id: "3AFD039BB5262E92"
+			tasks: [{
+				id: "23F66A16A480F739"
+				item: {
+					Count: 1
+					id: "sololeveling:sword_nature_b"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -5.0d
+		}
+		{
+			id: "10F93CBD2CFBF9FB"
+			tasks: [{
+				id: "1D8FAF09F6B56E03"
+				item: "sololeveling:kamish_wrath"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -9.5d
+		}
+		{
+			id: "3450F900FDB78295"
+			tasks: [{
+				id: "1DFC985D3273E762"
+				item: "sololeveling:kamish_wrath_2"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -9.5d
+		}
+		{
+			id: "0BCE438ACAEC479D"
+			tasks: [{
+				id: "2892F624F6303FB4"
+				item: {
+					Count: 1
+					id: "sololeveling:demon_kings_long_sword"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -8.0d
+		}
+		{
+			id: "61A2DD02F6BF1BA0"
+			tasks: [{
+				id: "21DEDBFDCDBC6A08"
+				item: {
+					Count: 1
+					id: "sololeveling:c_tier_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			id: "3B87582A691079FA"
+			tasks: [{
+				id: "56F70BD581BF5D21"
+				item: {
+					Count: 1
+					id: "sololeveling:teleport_sai"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -5.0d
+		}
+		{
+			id: "67723BB76A16CBF9"
+			tasks: [{
+				id: "7DDB3CD7B1397108"
+				item: {
+					Count: 1
+					id: "sololeveling:demon_monarchs_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4CF1EF0C85A01014"]
+			id: "1D74760011553036"
+			tasks: [{
+				entity: "sololeveling:orc"
+				id: "3FCD7441EAEAA130"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["42E1818AB8534737"]
+			id: "3BD75EE33B1F8461"
+			tasks: [{
+				entity: "sololeveling:gem_golem"
+				id: "60FB0EF825D8588F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7B7D999F5A9582BE"]
+			id: "3B032EB85CCD7D2B"
+			tasks: [{
+				entity: "sololeveling:beru_boss"
+				id: "402A506EE9B89D46"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			id: "0340C733185F0104"
+			tasks: [{
+				entity: "sololeveling:centipede"
+				id: "445361A84526043E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7232CB57DF089659"
+				"234430B64103332C"
+				"030B131771E50663"
+			]
+			id: "58A9331928D47CFB"
+			tasks: [{
+				entity: "sololeveling:ancient_knight"
+				id: "53E6AB364AF4A99B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7DD66418F92A1107"]
+			id: "70B19C870C9A851E"
+			tasks: [{
+				entity: "sololeveling:kasaka"
+				id: "1028D4E93909A90E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3BD75EE33B1F8461"]
+			id: "0C7B4F5397010B68"
+			tasks: [{
+				entity: "sololeveling:mini_gem_golem"
+				id: "00154AA2DA969EE2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1F8F9379155B1032"]
+			id: "4CF1EF0C85A01014"
+			tasks: [{
+				entity: "sololeveling:ancient_samurai"
+				id: "7BC4E4F05DE8F0AC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			id: "1F8F9379155B1032"
+			tasks: [{
+				entity: "sololeveling:fire_fly"
+				id: "0897A4AE4AF7208D"
+				type: "kill"
+				value: 5L
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			id: "4E56DC7AA62EF9C3"
+			tasks: [{
+				entity: "sololeveling:polar_bear"
+				id: "5DA5BD3BA6A2C460"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E56DC7AA62EF9C3"]
+			id: "0BB7ED81865B9040"
+			tasks: [{
+				entity: "sololeveling:ice_elf"
+				id: "188DE2D84DC68AEE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0BB7ED81865B9040"]
+			id: "4290C4308580B00D"
+			tasks: [{
+				entity: "sololeveling:baruka"
+				id: "75F35D4873601829"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D74760011553036"]
+			id: "05683A459C81870A"
+			tasks: [{
+				entity: "sololeveling:kamish"
+				id: "61745F155BCFEDC5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			id: "7B7D999F5A9582BE"
+			tasks: [{
+				entity: "sololeveling:red_ants"
+				id: "5D6957EE5DBEC22B"
+				type: "kill"
+				value: 5L
+			}]
+			x: 14.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["70B19C870C9A851E"]
+			id: "2F7B6DBED28FB9E1"
+			tasks: [{
+				entity: "sololeveling:fanged_kasaka"
+				id: "6FA7B60E1D63D8D2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			id: "6F58F84F0BB8EAF0"
+			tasks: [{
+				entity: "sololeveling:kang_taeshik"
+				id: "75B77B2D42FBB42A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6F58F84F0BB8EAF0"]
+			id: "081D0C86713EE5E6"
+			tasks: [{
+				entity: "sololeveling:baek_yoonho"
+				id: "7DD05690AC6A5FA0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6F58F84F0BB8EAF0"]
+			id: "39420AD9EFC14CCE"
+			tasks: [{
+				entity: "sololeveling:choijong"
+				id: "6C8E55C5522F1AD2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6F58F84F0BB8EAF0"]
+			id: "2487F834EE1F3AFB"
+			tasks: [{
+				entity: "sololeveling:thomas_andre"
+				id: "6193F2320767C7E4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"081D0C86713EE5E6"
+				"39420AD9EFC14CCE"
+				"2487F834EE1F3AFB"
+			]
+			id: "0193586AD1A46C4F"
+			tasks: [{
+				entity: "sololeveling:sung_jin_woo"
+				id: "4807ADC7A9E2518D"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			id: "63675A53D9AB0449"
+			tasks: [{
+				id: "7F9AFF692A750473"
+				item: "sololeveling:mana_crystal_e"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			id: "317C991B268779E5"
+			tasks: [{
+				id: "09E5701911B21515"
+				item: "sololeveling:mana_crystal_d"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			id: "7FD26CA02AF6F476"
+			tasks: [{
+				id: "0336F41AF59F30F9"
+				item: "sololeveling:mana_crystal_c"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			id: "4DFB9768F7C5B831"
+			tasks: [{
+				id: "2525015FB47054AB"
+				item: "sololeveling:mana_crystal_a"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			id: "58BD8AFE8DF5430C"
+			tasks: [{
+				id: "325784621D150F2F"
+				item: "sololeveling:mana_crystal_b"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			id: "5AC6AB2401FB38DA"
+			tasks: [{
+				id: "1F77D68692F5224B"
+				item: {
+					Count: 1
+					id: "sololeveling:a_tier_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			id: "61D8D407FBED590F"
+			tasks: [{
+				entity: "sololeveling:statue_of_god"
+				id: "6FA40D6E5B6CE83A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 25.25d
+			y: 3.25d
+		}
+	]
+	title: "Solo Leveling"
+}

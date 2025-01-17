@@ -1,0 +1,6 @@
+
+#General settings
+[general]
+	#Is scrolling inverted for the radial menu
+	invertedScroll = false
+
